@@ -7,3 +7,13 @@ var x = 10;
 }
 console.log("var x = " + x);
 console.log("var y = " + y);
+
+/** this example for fun */
+function counter(x){
+    for(let i=1;i<x;i++){
+      setTimeout(function() {
+          console.log(i);
+      }, 1000);  
+    }
+}
+counter(10);
